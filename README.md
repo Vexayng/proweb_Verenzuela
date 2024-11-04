@@ -27,7 +27,7 @@ Sincronizamos nuestro usuario para poder trabajar con la plataforma Github, esto
 ## Paso 5: Preparar Primer commit
 
 Para poder crear las ramas (Branch) primero debemos realizar un commit, para esto, creamos un archivo cualquiera en la carpeta "proweb_Verenzuela", en este caso, un "index.html".
-Ahora, usaremos el comando **$git status** para ver el estado actual del directorio, esto nos muestra qué archivos existen en el directorio, a cuales se les está haciendo seguimiento, y cuales no tienen seguimiento. Como vemos, el archivo "index.html" no está siendo respaldado por git, por tanto, usaremos el comando **$ git add nombre_archivo** para comenzar a hacerle seguimiento
+Ahora, usaremos el comando **$git status** para ver el estado actual del directorio, esto nos muestra qué archivos existen en el directorio, a cuales se les está haciendo seguimiento, y cuales no tienen seguimiento. Como vemos, el archivo "index.html" no está siendo respaldado por git, por tanto, usaremos el comando **$ git add nombre_archivo** para comenzar a hacerle seguimiento.
 ![Screenshot_978](https://github.com/user-attachments/assets/8b83d650-cfb5-45e5-ac03-b1cb861ca0ad)
 
 ## Paso 6: Realizar Primer commit
