@@ -28,42 +28,51 @@ Sincronizamos nuestro usuario para poder trabajar con la plataforma Github, esto
 
 Para poder crear las ramas (Branch) primero debemos realizar un commit, para esto, creamos un archivo cualquiera en la carpeta "proweb_Verenzuela", en este caso, un "index.html".
 Ahora, usaremos el comando **$git status** para ver el estado actual del directorio, esto nos muestra qué archivos existen en el directorio, a cuales se les está haciendo seguimiento, y cuales no tienen seguimiento. Como vemos, el archivo "index.html" no está siendo respaldado por git, por tanto, usaremos el comando **$ git add nombre_archivo** para comenzar a hacerle seguimiento.
+
 ![Screenshot_978](https://github.com/user-attachments/assets/8b83d650-cfb5-45e5-ac03-b1cb861ca0ad)
 
 ## Paso 6: Realizar Primer commit
 
 Ahora realizaremos el primer commit, utilizando el comando **$ git commit**.
 Esto nos abrirá nuestro editor de código para que insertemos el mensaje de commit.
+
 ![Screenshot_979](https://github.com/user-attachments/assets/cd936781-fbe4-4401-a89e-d9479673ab1f)
 
 Escribimos el mensaje, en este caso "primer commit", y cerramos el archivo para que la terminal detecte el mensaje y realice el commit.
+
 ![Screenshot_981](https://github.com/user-attachments/assets/d569a19a-4a55-45b7-b721-936bb6d4852c)
 
 Y con esto, el commit se habrá realizado con exito. Podemos verificarlo usando de nuevo el comando **$ git status**
+
 ![Screenshot_983](https://github.com/user-attachments/assets/645bdd6c-b9c0-4ea4-abb0-952d6bdffc65)
 
 ## Paso 7: Creación de Branchs (Ramas)
 
 Al realizar el primer commit, automaticamente se crea la Rama principal master (Equivalente a Main).
 Podemos verificar que ramas existen en nuestro repositorio por medio del comando **$ git branch**
+
 ![Screenshot_984](https://github.com/user-attachments/assets/d6a2ff26-4db5-47b0-bbd6-74414b761d65)
 
 Podemos crear nuevas ramas utlizando el comando **$ git branch nombre_rama**
 De este modo, crearemos las ramas "develop" y "staging".
+
 ![Screenshot_985](https://github.com/user-attachments/assets/28b62f2e-6175-480a-ba78-81bb4bcaf4ea)
 
 ## Paso 8: Sincronizar con Github
 
 Ahora debemos sincronizar el repositorio local con el repositorio en línea de GitHub.
 Esto lo haremos por medio del comando **$ git remote add origin link_repositorio**
+
 ![Screenshot_986](https://github.com/user-attachments/assets/3d18e1c8-0c0b-4c61-8405-72e00ecf1af7)
 
 ## Paso 9: Subir rama master (Push master)
 
 Ahora subiremos la rama master al repositorio de github por medio del comando **$ git push -u origin master**
+
 ![Screenshot_988](https://github.com/user-attachments/assets/ede6307b-4f12-4f1d-ab4f-7399fcd750f7)
 
 Y con esto, nuestra rama principal se encontrará subida al Github.
+
 ![Screenshot_989](https://github.com/user-attachments/assets/8cc2ccf0-12d2-409c-8905-2e26e1b7e0af)
 
 ## Paso 10: Subir ramas develop y staging
