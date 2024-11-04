@@ -91,7 +91,7 @@ Para ello, utilizaremos el comando **$ git swicth nombre_rama** para cambiar a l
 Ahora verificaremos si el push de las ramas secundarias se realizó correctamente, para esto iremos al repositorio Github y seleccionaremos este botón.
 ![Screenshot_994](https://github.com/user-attachments/assets/7e5c2d21-8558-47d8-975d-f77f3e89ae77)
 
-Y con esto habremos finalizado la creación del repositorio con los requerimientos específicados en la evaluación.
-
 Una vez seleccionado, nos mostrará las ramas existentes en el repositorio.
 ![Screenshot_993](https://github.com/user-attachments/assets/627d727a-65cd-4fd1-b188-44179d3fbc1d)
+
+Y con esto habremos finalizado la creación del repositorio con los requerimientos específicados en la evaluación.
