@@ -1,5 +1,5 @@
-# Programación Web - Evaluación 2
+# Programación Web - Evaluación 3
 
 Estudiante: Vexayng Verenzuela
 
-Crear una landing page (página web) usando solo estructuras html (sin css ni javascripts).
+Modificar la landing page para ofrecer dinamismo
